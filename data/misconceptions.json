@@ -1,0 +1,42 @@
+[
+  {
+    "id": "miscon_001",
+    "topic": "Triangle Similarity",
+    "symptom": "Student says two triangles are similar because of SSA, or uses AAA when only two angles are equal and ignores corresponding sides.",
+    "root_cause": "Mixing up AAA, SSS and SAS. SSA is not a valid similarity rule for general triangles.",
+    "diagnostic_question": "Which similarity criterion are you using, AAA, SSS or SAS? Can you show the corresponding sides are in proportion?",
+    "corrective_hint": "Write the three pairs of corresponding angles or sides. For SAS, the equal angle has to be between the two proportional sides."
+  },
+  {
+    "id": "miscon_002",
+    "topic": "Area of Parallelogram and Triangle",
+    "symptom": "Student multiplies base by the slant side instead of the perpendicular height.",
+    "root_cause": "Area uses the perpendicular distance between the parallel sides, not the sloping side.",
+    "diagnostic_question": "Which length is the height, the slanting side or the perpendicular from the base to the opposite side?",
+    "corrective_hint": "Draw the perpendicular from the base to the opposite side. Area is base times that height only."
+  },
+  {
+    "id": "miscon_003",
+    "topic": "Area vs Perimeter",
+    "symptom": "Student adds all sides when asked for area, or multiplies lengths when asked for perimeter.",
+    "root_cause": "Mixing area (space inside, square units) with perimeter (boundary, normal length units).",
+    "diagnostic_question": "Are you measuring the inside of the shape or the distance around it? What units should the answer have?",
+    "corrective_hint": "Perimeter = sum of the sides. Area = space inside (for a parallelogram, base x height)."
+  },
+  {
+    "id": "miscon_004",
+    "topic": "Quadratic Equations",
+    "symptom": "Sign mistakes when moving terms to the other side, or factoring that does not give the right roots.",
+    "root_cause": "Sign changes and factoring not checked by expanding back.",
+    "diagnostic_question": "Can you write it as ax² + bx + c = 0? What happens to the sign of a term when you move it across = ?",
+    "corrective_hint": "When a term crosses '=', the sign flips. Expand your factors to check they match the original quadratic."
+  },
+  {
+    "id": "miscon_005",
+    "topic": "Pythagoras Theorem",
+    "symptom": "Using a² + b² = c² on a triangle that is not right-angled, or picking the wrong side as hypotenuse.",
+    "root_cause": "Pythagoras is only for right triangles. c is the side opposite the right angle.",
+    "diagnostic_question": "Is this triangle right-angled? Which side is opposite 90 degrees? That side is c.",
+    "corrective_hint": "Mark the right angle first. Hypotenuse is the longest side, opposite the right angle."
+  }
+]

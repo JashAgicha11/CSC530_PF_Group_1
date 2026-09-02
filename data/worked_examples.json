@@ -1,0 +1,40 @@
+[
+  {
+    "id": "example_001",
+    "topic": "Triangle Similarity Proof",
+    "problem": "In triangles ABC and DEF, angle A = angle D, angle B = angle E. Prove that triangle ABC ~ triangle DEF.",
+    "solution_steps": [
+      "Given: angle A = angle D and angle B = angle E.",
+      "In triangle ABC, angle A + angle B + angle C = 180°.",
+      "In triangle DEF, angle D + angle E + angle F = 180°.",
+      "Since angle A = angle D and angle B = angle E, angle C = angle F.",
+      "All three pairs of corresponding angles are equal.",
+      "By AAA similarity, triangle ABC ~ triangle DEF."
+    ],
+    "why_it_works": "If two angles match, the third angles also match (angle sum is 180). AAA is a valid NCERT similarity criterion."
+  },
+  {
+    "id": "example_002",
+    "topic": "Area of Parallelogram",
+    "problem": "A parallelogram has base 10 cm and perpendicular height 6 cm. Find its area.",
+    "solution_steps": [
+      "Base b = 10 cm, perpendicular height h = 6 cm (not the slant side).",
+      "Area = base x height = b x h.",
+      "Area = 10 x 6 = 60 cm²."
+    ],
+    "why_it_works": "Height has to be perpendicular to the base. Otherwise b x h is not the area."
+  },
+  {
+    "id": "example_003",
+    "topic": "Quadratic Equation",
+    "problem": "Solve x² - 5x + 6 = 0 by factorization.",
+    "solution_steps": [
+      "Write x² - 5x + 6 = 0.",
+      "Two numbers that multiply to 6 and add to -5: -2 and -3.",
+      "Factor: (x - 2)(x - 3) = 0.",
+      "So x - 2 = 0 or x - 3 = 0.",
+      "x = 2 or x = 3."
+    ],
+    "why_it_works": "If a product of two factors is 0, at least one factor is 0, so those values are the roots."
+  }
+]

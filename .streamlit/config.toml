@@ -1,0 +1,3 @@
+# streamlit was picking up torch/transformers and printing torchvision errors on reload
+[server]
+fileWatcherType = "none"
