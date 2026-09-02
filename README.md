@@ -6,7 +6,9 @@ CSC530 group project. Local RAG tutor for NCERT Class 10 Mathematics.
 ## Group Members
 
 Jash Agicha :- AU2320253
+
 Nidhi Mehta :- AU2440019
+
 Aangi Shah :- AU2300055
 
 The tutor uses Manu Kapur's Productive Failure idea: student tries first (exploration), then we explain the proper method (consolidation). It should not dump the formula on the first message.
